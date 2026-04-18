@@ -4,9 +4,9 @@
 
 # Site
 title: Another
-subtitle: ""
-description: ""
-keywords:
+subtitle: Another
+description: "..."
+keywords: ...
 author: Copcin
 language: zh
 timezone: ""
@@ -61,7 +61,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ""
-  per_page: 10
+  per_page: 5
   order_by: -date
 
 # Category & Tag
@@ -101,7 +101,9 @@ theme: yilia
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
+  type: git
+  repository: git@github.com:rpiws/Another.git
+  branch: gh-pages
 
 jsonContent:
   meta: false
